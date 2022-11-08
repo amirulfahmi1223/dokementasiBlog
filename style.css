@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+  background-color: #eaeaea;
+}
+
+.top-bar {
+  height: 30px;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: rgb(0, 162, 255);
+  border-bottom: 2px solid salmon;
+}
+
+.container {
+  width: 980px;
+  margin: 40px auto;
+  background-color: #fff;
+}
+
+header {
+  background-color: #444;
+}
+
+.navbar {
+  margin: auto;
+  padding: 12px;
+}
+
+header .navbar {
+  border: 1px solid #000;
+}
+
+.navbar ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease-out;
+}
+
+.navbar ul li a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
+
+.judul {
+  padding: 26px;
+  border-bottom: 2px dashed #555;
+}
+
+.judul h1 span {
+  color: red;
+}
+
+.judul h1 {
+  font-size: 26px;
+  color: rgb(89, 191, 255);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 20px;
+}
+
+.sidebar .isi {
+  padding: 15px 12px;
+}
+
+.content:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.sidebar {
+  width: 620px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.sidebar {
+  padding-bottom: 60px;
+  margin-left: 10px;
+}
+
+.isi h3 {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 26px;
+}
+
+.isi p span {
+  color: rgb(0, 72, 136);
+  font-style: italic;
+  font-family: cursive;
+  font-weight: 900;
+  padding-top: 60px;
+}
+
+.isi p {
+  font-family: sans-serif;
+  margin-bottom: 15px;
+  font-size: 15px;
+  color: #666;
+}
+
+.isi img {
+  margin-left: 150px;
+  height: 300px;
+  width: 300px;
+}
+
+.navfooter {
+  background-color: #444;
+  padding: 20px;
+}
+
+.navfooter ul li {
+  display: inline-block;
+  margin-left: 12px;
+}
+
+.navfooter ul li a {
+  text-decoration: none;
+  color: rgba(1, 116, 247, 0.979);
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-out;
+}
+
+.navfooter a:hover {
+  color: aquamarine;
+}
+
+.nav {
+  text-align: center;
+}
+
+footer {
+  padding: 20px;
+  background-color: #222;
+}
+
+footer .copy {
+  text-align: center;
+  font-size: 12px;
+  color: #eaeaea;
+}
+
+.bagiankanan {
+  width: 320px;
+  float: right;
+  padding: 10px;
+}
+
+.bagiankanan h2 {
+  color: #555;
+  font-size: 22px;
+  margin-bottom: 2px;
+}
+
+.sosmed ul li {
+  margin-top: 2px;
+  display: inline-block;
+  margin-left: 8px;
+  color: #fff;
+}
+
+.sosmed ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all 0.4s ease-in-out;
+}
+
+.sosmed ul li a:hover {
+  color: #000;
+}
+
+.sosmed .fb {
+  padding: 2px 10px;
+  margin-left: 0;
+  background-color: rgb(60, 120, 252);
+
+}
+
+.sosmed .wa {
+  padding: 2px 10px;
+  background-color: rgb(23, 252, 2);
+}
+
+.sosmed .twitter {
+  padding: 2px 10px;
+  background-color: rgb(2, 202, 252);
+}
+
+.sosmed .ig {
+  padding: 2px 10px;
+  background-color: rgb(240, 3, 35);
+}
+
+.bagiankanan img {
+  height: 150px;
+  width: 120px;
+  padding-right: 10px;
+  float: left;
+}
+
+.bagiankanan p {
+  font-size: 14px;
+  font-family: sans-serif;
+  color: #666;
+  margin-bottom: 15px;
+}
